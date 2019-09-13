@@ -37,6 +37,14 @@ html body main #timeline ul li a {
           align-items: flex-end;
 }
 
+html body main #timeline ul li a p {
+  width: 29rem;
+  text-align: end;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-bottom-color: #000;
+}
+
 html body main #timeline ul li a img {
   width: 20rem;
 }
@@ -51,8 +59,10 @@ html body main #timeline ul .marker img {
   width: 32px;
 }
 
-html body main img {
+html body main #timeline #line {
   width: 10px;
+  height: 5000px;
+  margin: 3rem -1rem 0 0;
 }
 
 html footer #copyright {
