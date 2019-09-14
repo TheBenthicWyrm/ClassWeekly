@@ -9,9 +9,26 @@ html {
 
     body {
         main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            #warning {
+                display: flex;
+
+                button {
+                    background: transparent;
+                    border: none;
+
+                    img {
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+            }
+
             #timeline {
                 display: flex;
-                justify-content: center;
 
                 ul {
                     li {
