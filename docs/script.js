@@ -1,9 +1,16 @@
 var warning = document.querySelector("#warning");
+var line = document.querySelector(".line");
 var copyright = document.querySelector("#copyright");
 
 function closeWarning() {
     warning.style.height = "0";
     warning.style.visibility = "hidden";
+}
+
+function adjustLine() {
+    var height = document.body.clientHeight;
+
+    line.style.height = height - 530 + "px";
 }
 
 function insertYear() {
@@ -14,5 +21,7 @@ function insertYear() {
 }
 
 function init() {
+    adjustLine();
+
     insertYear();
 }
