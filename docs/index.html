@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body onload="init()">
     <main>
         <div id="warning">
             <p>大部分周记分布在第三方图文创作分享网站（如美篇）各位同学的账号下，删除将导致无法访问，因此如须删除请提前联系制作人员，将该篇文章转移。</p>
-            <button><img src="images/close.svg" alt="close"></button>
+            <button onclick="closeWarning()"><img src="images/close.svg" alt="close"></button>
         </div>
         
         <div id="timeline">
@@ -484,6 +484,8 @@
             <p>&copy; 范子睿</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 微软雅黑;
+    src: local('微软雅黑'), url('fonts/MicrosoftYaHei.ttf');
+}
+
+@font-face {
+    font-family: 汉仪苏泽立行楷;
+    src: local('汉仪苏泽立行楷'), url('fonts/HYSuZeLiXingKaiTruingW.ttf');
+}
+
+@font-face {
+    font-family: 汉仪正圆;
+    src: local('汉仪正圆'), url('fonts/HYZhengYuan-55W.ttf');
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -5,6 +20,12 @@ html {
     * {
         margin: 0;
         padding: 0;
+
+        font-family: 汉仪正圆;
+    }
+
+    h1, h2 {
+        font-family: 汉仪苏泽立行楷;
     }
 
     body {
@@ -14,26 +35,30 @@ html {
             align-items: center;
 
             #warning {
+                width: 30rem;
+
                 background-color: #fef3cc;
                 border-style: solid;
                 border-width: 1px;
-                border-radius: 1rem;
+                border-radius: 0.7rem;
                 border-color: #fff1cc;
-
+                
                 display: flex;
+                align-items: flex-start;
 
                 p {
+                    margin: 1rem 0 1rem 1rem;
+
+                    font-family: 微软雅黑;
+                    
                     color: #695415;
                 }
 
                 button {
+                    margin: 1rem 1rem 1rem 0;
+
                     background: transparent;
                     border: none;
-
-                    img {
-                        width: 10px;
-                        height: 10px;
-                    }
                 }
             }
 
@@ -82,10 +107,6 @@ html {
                     
                     .marker {
                         display: flex;
-
-                        img {
-                            width: 32px;
-                        }
                     }
                 }
                 
@@ -103,6 +124,10 @@ html {
         #copyright {
             display: flex;
             justify-content: center;
+
+            p {
+                font-family: 微软雅黑;
+            }
         }
     }
 }

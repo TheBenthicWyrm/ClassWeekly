@@ -1,3 +1,19 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 微软雅黑;
+  src: local("微软雅黑"), url("fonts/MicrosoftYaHei.ttf");
+}
+
+@font-face {
+  font-family: 汉仪苏泽立行楷;
+  src: local("汉仪苏泽立行楷"), url("fonts/HYSuZeLiXingKaiTruingW.ttf");
+}
+
+@font-face {
+  font-family: 汉仪正圆;
+  src: local("汉仪正圆"), url("fonts/HYZhengYuan-55W.ttf");
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -6,6 +22,11 @@ html {
 html * {
   margin: 0;
   padding: 0;
+  font-family: 汉仪正圆;
+}
+
+html h1, html h2 {
+  font-family: 汉仪苏泽立行楷;
 }
 
 html body main {
@@ -22,28 +43,30 @@ html body main {
 }
 
 html body main #warning {
+  width: 30rem;
   background-color: #fef3cc;
   border-style: solid;
   border-width: 1px;
-  border-radius: 1rem;
+  border-radius: 0.7rem;
   border-color: #fff1cc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 html body main #warning p {
+  margin: 1rem 0 1rem 1rem;
+  font-family: 微软雅黑;
   color: #695415;
 }
 
 html body main #warning button {
+  margin: 1rem 1rem 1rem 0;
   background: transparent;
   border: none;
-}
-
-html body main #warning button img {
-  width: 10px;
-  height: 10px;
 }
 
 html body main #timeline {
@@ -98,10 +121,6 @@ html body main #timeline ul .marker {
   display: flex;
 }
 
-html body main #timeline ul .marker img {
-  width: 32px;
-}
-
 html body main #timeline #line {
   width: 10px;
   height: 8760px;
@@ -115,5 +134,9 @@ html footer #copyright {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+html footer #copyright p {
+  font-family: 微软雅黑;
 }
 /*# sourceMappingURL=styles.css.map */
