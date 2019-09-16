@@ -1,8 +1,14 @@
-@charset "UTF-8";
-
-html, html * {
-    margin: 0;
-    padding: 0;
-
-    background-color: #000000;
+html {
+  margin: 0;
+  padding: 0;
 }
+
+html * {
+  margin: 0;
+  padding: 0;
+}
+
+html body {
+  background-color: #000000;
+}
+/*# sourceMappingURL=video.css.map */
