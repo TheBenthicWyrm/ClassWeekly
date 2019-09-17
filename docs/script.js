@@ -4,13 +4,14 @@ var copyright = document.querySelector("#copyright");
 
 function closeWarning() {
     warning.style.height = "0";
+    warning.style.margin = "0";
     warning.style.visibility = "hidden";
 }
 
 function adjustLine() {
     var height = document.body.clientHeight;
 
-    line.style.height = height - 530 + "px";
+    line.style.height = height - 560 + "px";
 }
 
 function insertYear() {

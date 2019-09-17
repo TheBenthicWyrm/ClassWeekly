@@ -29,6 +29,8 @@ html {
     }
 
     body {
+        margin: 1rem;
+
         main {
             display: flex;
             flex-direction: column;
@@ -36,6 +38,8 @@ html {
 
             #warning {
                 width: 30rem;
+
+                margin: 1rem;
 
                 background-color: #fef3cc;
                 border-style: solid;
@@ -100,12 +104,16 @@ html {
                     }
 
                     .article {
+                        margin: 1rem;
+
                         a {
                             align-items: flex-start;
                         }
                     }
                     
                     .marker {
+                        margin: 1rem 0 0 0;
+
                         display: flex;
 
                         .dot {
@@ -127,13 +135,15 @@ html {
 
                     background-color: #000;
 
-                    margin: 3rem -12px 0 0;
+                    margin: 5rem -12px 0 0;
                 }
             }
         }
     }
 
     footer {
+        margin: 1rem 0 0 0;
+        
         #copyright {
             display: flex;
             justify-content: center;
