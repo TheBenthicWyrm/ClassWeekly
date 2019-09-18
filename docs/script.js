@@ -11,7 +11,7 @@ function closeWarning() {
 function adjustLine() {
     var height = document.body.clientHeight;
 
-    line.style.height = height - 560 + "px";
+    line.style.height = height - 580 + "px";
 }
 
 function insertYear() {
