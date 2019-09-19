@@ -13,6 +13,10 @@
     src: local('汉仪正圆'), url('fonts/HYZhengYuan-55W.ttf');
 }
 
+$max-width-1: 768px;
+$max-width-2: 992px;
+$max-width-3: 1200px;
+
 html {
     margin: 0;
     padding: 0;
@@ -71,9 +75,13 @@ html {
 
                 ul {
                     li {
-                        width: 30rem;
+                        width: 50rem;
 
                         list-style-type: none;
+
+                        @media (max-width: $max-width-1) {
+                            width: 90%;
+                        }
 
                         a {
                             color: #000;
@@ -84,21 +92,33 @@ html {
                             align-items: flex-end;
 
                             p {
-                                width: 29rem;
+                                align-self: flex-start;
 
-                                margin: 0.5rem;
+                                width: 16rem;
 
-                                text-align: end;
-
+                                margin: 0.5rem 0 0.5rem 10rem;
+                                
                                 border-bottom-style: solid;
                                 border-width: 1px;
                                 border-bottom-color: #000;
+
+                                @media (max-width: $max-width-1) {
+                                    text-align: end;
+
+                                    width: 100%;
+
+                                    margin: 0.5rem 0;
+                                }
                             }
                             
                             img {
                                 width: 20rem;
 
                                 margin: 0.5rem;
+
+                                @media (max-width: $max-width-1) {
+                                    margin: 0.5rem 0;
+                                }
                             }
                         }                        
                     }
@@ -107,14 +127,25 @@ html {
                         margin: 1rem;
 
                         a {
-                            align-items: flex-start;
+                            align-items: center;
+                            
+                            @media (max-width: $max-width-1) {
+                                align-items: flex-start;
+                            }
                         }
                     }
                     
                     .marker {
-                        margin: 1rem 0 0 0;
+                        width: 28rem;
+
+                        margin: 2rem 0 0 -12px;
 
                         display: flex;
+                        justify-content: flex-end;
+
+                        @media (max-width: $max-width-1) {
+                            justify-content: flex-start;
+                        }
 
                         .dot {
                             width: 16px;
@@ -125,6 +156,12 @@ html {
                             border-radius: 8px;
 
                             background-color: #000;
+
+                            order: 1;
+
+                            @media (max-width: $max-width-1) {
+                                order: 0;
+                            }
                         }
                     }
                 }
@@ -135,7 +172,15 @@ html {
 
                     background-color: #000;
 
-                    margin: 5rem -12px 0 0;
+                    margin: 6rem 0 0 0;
+
+                    position: absolute;
+                    left: 50%;
+
+                    @media (max-width: $max-width-1) {
+                        position: relative;
+                        left: 0;
+                    }
                 }
             }
         }
@@ -160,6 +205,7 @@ html {
 
             p {
                 font-family: 微软雅黑;
+                font-size: 0.7rem;
             }
         }
     }
