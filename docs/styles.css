@@ -25,12 +25,25 @@ html * {
   font-family: 汉仪正圆;
 }
 
-html h1, html h2 {
+html h2, html h3 {
   font-family: 汉仪苏泽立行楷;
 }
 
 html body {
   margin: 1rem;
+}
+
+html body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html body header h1 {
+  font-size: 5rem;
 }
 
 html body main {
@@ -155,7 +168,7 @@ html body main #timeline ul .article a {
 
 html body main #timeline ul .marker {
   width: 28rem;
-  margin: 2rem 0 0 -12px;
+  margin: 2rem 0 1rem -16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

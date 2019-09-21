@@ -27,13 +27,22 @@ html {
 
         font-family: 汉仪正圆;
     }
-
-    h1, h2 {
+    
+    h2, h3 {
         font-family: 汉仪苏泽立行楷;
     }
 
     body {
         margin: 1rem;
+
+        header {
+            display: flex;
+            justify-content: center;
+
+            h1 {
+                font-size: 5rem;
+            }
+        }
 
         main {
             display: flex;
@@ -138,7 +147,7 @@ html {
                     .marker {
                         width: 28rem;
 
-                        margin: 2rem 0 0 -12px;
+                        margin: 2rem 0 1rem -16px;
 
                         display: flex;
                         justify-content: flex-end;
