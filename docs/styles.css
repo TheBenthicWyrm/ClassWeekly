@@ -171,7 +171,7 @@ html body main #timeline ul .marker {
 html body main #timeline ul .marker .dot {
   width: 16px;
   height: 16px;
-  margin: 6px 5px 0 2px;
+  margin: 3px 5px 0 5px;
   border-radius: 8px;
   background-color: #000;
   -webkit-box-ordinal-group: 2;
