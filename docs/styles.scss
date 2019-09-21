@@ -27,6 +27,10 @@ html {
 
         font-family: 汉仪正圆;
     }
+
+    // h1 {
+    //     font-family: ;
+    // }
     
     h2, h3 {
         font-family: 汉仪苏泽立行楷;
@@ -40,7 +44,7 @@ html {
             justify-content: center;
 
             h1 {
-                font-size: 5rem;
+                font-size: 3rem;
             }
         }
 
@@ -50,29 +54,11 @@ html {
             align-items: center;
 
             #warning {
-                width: 30rem;
-
                 margin: 1rem;
 
-                background-color: #fef3cc;
-                border-style: solid;
-                border-width: 1px;
-                border-radius: 0.7rem;
-                border-color: #fff1cc;
-                
-                display: flex;
-                align-items: flex-start;
-
-                p {
-                    margin: 1rem 0 1rem 1rem;
-
-                    font-family: 微软雅黑;
-                    
-                    color: #695415;
-                }
-
                 button {
-                    margin: 1rem 1rem 1rem 0;
+                    width: 10px;
+                    height: 10px;
 
                     background: transparent;
                     border: none;
