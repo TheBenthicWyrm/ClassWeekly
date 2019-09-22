@@ -8,7 +8,7 @@ function warn() {
 function adjustLine() {
     var height = document.body.clientHeight;
 
-    line.style.height = height - 300 + "px";
+    line.style.height = height - 750 + "px";
 }
 
 function insertYear() {

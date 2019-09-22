@@ -22,6 +22,8 @@ $max-width-1: 768px;
 $max-width-2: 992px;
 $max-width-3: 1200px;
 
+$primary-color: #3914c2;
+
 html {
     margin: 0;
     padding: 0;
@@ -37,13 +39,15 @@ html {
         margin: 1rem;
 
         header {
-            margin: 1rem;
+            margin: 2rem 0 1rem 0;
 
             display: flex;
             justify-content: center;
 
             h1 {
-                font-size: 3rem;
+                font-size: 5rem;
+
+                color: $primary-color;
             }
         }
 
@@ -99,7 +103,7 @@ html {
                                 
                                 border-bottom-style: solid;
                                 border-width: 1px;
-                                border-bottom-color: #000;
+                                border-bottom-color: $primary-color;
 
                                 @media (max-width: $max-width-1) {
                                     text-align: end;
@@ -150,15 +154,17 @@ html {
                             width: 16px;
                             height: 16px;
 
-                            margin: 3px 5px 0 5px;
+                            margin: 0 5px 0 1rem;
 
                             border-radius: 8px;
 
-                            background-color: #000;
+                            background-color: $primary-color;
 
                             order: 1;
 
                             @media (max-width: $max-width-1) {
+                                margin: 0 5px 0 5px;
+
                                 order: 0;
                             }
                         }
@@ -169,9 +175,9 @@ html {
                     width: 5px;
                     height: 8760px;
 
-                    background-color: #000;
+                    background-color: $primary-color;
 
-                    margin: 6rem 0 0 0;
+                    margin: 5rem 0 0 0;
 
                     position: absolute;
                     left: 50%;
