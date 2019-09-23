@@ -159,7 +159,7 @@ html body main #timeline ul .article a {
 
 html body main #timeline ul .marker {
   width: 28rem;
-  margin: 2rem 0 1rem -16px;
+  margin: 2rem 0 1rem -19px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,6 +170,7 @@ html body main #timeline ul .marker {
 
 @media (max-width: 768px) {
   html body main #timeline ul .marker {
+    margin: 2rem 0 1rem -15.5px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
@@ -204,13 +205,14 @@ html body main #timeline .line {
   width: 5px;
   height: 8760px;
   background-color: #3914c2;
-  margin: 5rem 0 0 0;
+  margin: 5rem 0 0 -2.5px;
   position: absolute;
   left: 50%;
 }
 
 @media (max-width: 768px) {
   html body main #timeline .line {
+    margin: 5rem 0 0 0;
     position: relative;
     left: 0;
   }
