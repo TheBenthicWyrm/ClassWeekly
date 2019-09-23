@@ -196,6 +196,10 @@ html body main #timeline ul .marker .dot {
   }
 }
 
+html body main #timeline ul .marker h3 {
+  color: #3914c2;
+}
+
 html body main #timeline .line {
   width: 5px;
   height: 8760px;
