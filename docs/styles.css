@@ -75,7 +75,7 @@ html body main #timeline {
 }
 
 html body main #timeline ul li {
-  width: 50rem;
+  width: 45rem;
   list-style-type: none;
 }
 
@@ -104,7 +104,7 @@ html body main #timeline ul li a p {
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 16rem;
-  margin: 0.5rem 0 0.5rem 10rem;
+  margin: 0.5rem 0 0.5rem 7.5rem;
   border-bottom-style: solid;
   border-width: 1px;
   border-bottom-color: #3914c2;
@@ -119,8 +119,8 @@ html body main #timeline ul li a p {
 }
 
 html body main #timeline ul li a img {
-  width: 20rem;
-  margin: 0.5rem;
+  width: 16rem;
+  margin: 0.5rem 4rem;
 }
 
 @media (max-width: 768px) {
@@ -149,7 +149,7 @@ html body main #timeline ul .article a {
 
 html body main #timeline ul .marker {
   width: 28rem;
-  margin: 2rem 0 1rem -19px;
+  margin: 2rem 0 1rem -59px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
