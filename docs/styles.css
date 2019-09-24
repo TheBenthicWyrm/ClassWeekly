@@ -193,7 +193,7 @@ html body main #timeline ul .marker h3 {
 
 html body main #timeline .line {
   width: 5px;
-  height: 8760px;
+  height: 5px;
   background-color: #3914c2;
   margin: 5rem 0 0 -2.5px;
   position: absolute;
