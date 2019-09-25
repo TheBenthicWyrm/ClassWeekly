@@ -1,11 +1,11 @@
 @font-face {
     font-family: 微软雅黑;
-    src: local('微软雅黑'), url('/fonts/compressed/MicrosoftYaHei.ttf');
+    src: local('微软雅黑'), url('../fonts/compressed/MicrosoftYaHei.ttf');
 }
 
 @font-face {
     font-family: 汉仪趣黑;
-    src: local('汉仪趣黑'), url('/fonts/compressed/HYQuHeiW.ttf');
+    src: local('汉仪趣黑'), url('../fonts/compressed/HYQuHeiW.ttf');
 }
 
 $max-width-1: 768px;
