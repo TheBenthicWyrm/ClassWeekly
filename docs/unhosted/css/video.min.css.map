@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,AAAC,CACD,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CAUb,AAZD,AAII,IAJA,CAIA,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,AAPL,AASI,IATA,CASA,IAAI,AAAC,CACD,gBAAgB,CAAE,OAAO,CAC5B",
+    "sources": [
+        "../video.scss"
+    ],
+    "names": [],
+    "file": "video.min.css"
+}
