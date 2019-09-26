@@ -13,6 +13,6 @@ function insertYear() {
     copyright.innerHTML = "<p>&copy; " + year + " 范子睿</p>";
 }
 
-function init() {
+window.onload = function() {
     insertYear();
 }
