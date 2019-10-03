@@ -1,5 +1,4 @@
 var line = document.querySelector(".line");
-var timeline = document.querySelector("ul");
 var copyright = document.querySelector("#copyright");
 
 function warn() {
