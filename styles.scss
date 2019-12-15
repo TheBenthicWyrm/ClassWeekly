@@ -38,6 +38,14 @@ html {
                 font-size: 5rem;
 
                 color: $primary-color;
+
+                @media (max-width: $max-width-2) {
+                    font-size: 4rem;
+                }
+
+                @media (max-width: $max-width-1) {
+                    font-size: 3rem;
+                }
             }
         }
 
@@ -66,14 +74,20 @@ html {
             #timeline {
                 display: flex;
 
+                @media (max-width: $max-width-1) {
+                    width: 90%;
+                }
+
                 ul {
+                    width: 100%;
+
                     li {
                         width: 45rem;
 
                         list-style-type: none;
 
                         @media (max-width: $max-width-1) {
-                            width: 90%;
+                            width: 100%;
                         }
 
                         a {
@@ -110,6 +124,8 @@ html {
                                 margin: 0.5rem 4rem;
 
                                 @media (max-width: $max-width-1) {
+                                    width: 90%;
+
                                     margin: 0.5rem 0;
                                 }
                             }
@@ -125,6 +141,16 @@ html {
                             @media (max-width: $max-width-1) {
                                 align-items: flex-start;
                             }
+
+                            h2 {
+                                @media (max-width: $max-width-2) {
+                                    font-size: 1.4rem;
+                                }
+
+                                @media (max-width: $max-width-1) {
+                                    font-size: 1.3rem;
+                                }
+                            }
                         }
                     }
                     
@@ -137,6 +163,8 @@ html {
                         justify-content: flex-end;
 
                         @media (max-width: $max-width-1) {
+                            width: 100%;
+
                             margin: 2rem 0 1rem -15.5px;
 
                             justify-content: flex-start;
@@ -179,7 +207,7 @@ html {
                     left: 50%;
 
                     @media (max-width: $max-width-1) {
-                        margin: 5rem 0 0 0;
+                        margin: 5rem 0 0 -10px;
 
                         position: relative;
                         left: 0;

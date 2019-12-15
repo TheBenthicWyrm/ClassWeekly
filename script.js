@@ -33,3 +33,7 @@ window.onload = function() {
 
     adjustLine();
 }
+
+window.onresize = function() {
+    adjustLine();
+}
