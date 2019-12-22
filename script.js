@@ -28,6 +28,23 @@ function adjustLine() {
     line.style.height = height + "px";
 }
 
+var warning = document.querySelector("#warning");
+
+var on = true;
+
+function blink() {
+    if (on) {
+        warning.style.visibility = "visible";
+    }
+    else {
+        warning.style.visibility = "hidden";
+    }
+    
+    on = !on;
+}
+
+setInterval("blink()", 1000);
+
 window.onload = function() {
     insertYear();
 
