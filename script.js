@@ -5,15 +5,7 @@ function warn() {
 var copyright = document.querySelector("#copyright");
 
 function insertYear() {
-    var date = new Date;
-    var year = date.getFullYear();
-
-    if (year == 2019) {
-        copyright.innerHTML = "<p>&copy; 2019 范子睿</p>";
-    }
-    else {
-        copyright.innerHTML = "<p>&copy; 2019-" + year + " 范子睿</p>";
-    }
+    copyright.innerHTML = "<p>&copy; 2019 范子睿</p>";
 }
 
 var line = document.querySelector(".line");

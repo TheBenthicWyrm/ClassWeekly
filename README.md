@@ -7,7 +7,7 @@ ClassWeekly是清华附中朝阳学校2019届3班的周记导航网站。
 
 ## 网址
 * 码云 Pages: [https://clusravin.gitee.io/classweekly/](http://clusravin.gitee.io/classweekly/)  
-* Github Pages: [https://martaincreature.github.io/ClassWeekly/](https://martaincreature.github.io/ClassWeekly/)
+* Github Pages: [https://clusravin.github.io/ClassWeekly/](https://clusravin.github.io/ClassWeekly/)
 
 ## 截图
 ![](images/screenshot.png)
